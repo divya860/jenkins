@@ -18,4 +18,10 @@ pipeline {
             }
         }
     }
+
+    post { 
+        always { 
+            echo 'I will always run wheather job is success or nots'
+        }
+    }
 }
