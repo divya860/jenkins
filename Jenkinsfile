@@ -23,5 +23,11 @@ pipeline {
         always { 
             echo 'I will always run wheather job is success or nots'
         }
+         success { 
+            echo 'I will always run wheather job is success '
+        }
+         failure { 
+            echo 'I will always run wheather job is fail '
+        }
     }
 }
