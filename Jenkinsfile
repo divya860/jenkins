@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh 'ls -ltr'
-                sh 'pwd'
+                echo 'webhook event'
             }
         }
         stage('Test') {
